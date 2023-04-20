@@ -698,6 +698,10 @@ p {
   resize: none;
 }
 
+.modal-field {
+  margin-top: 16px;
+}
+
 .check-text {
   font-size: 12px;
   display: flex;
@@ -743,7 +747,10 @@ p {
 }
 
 .backdrop-btn {
-  margin: 24px 120px;
+  margin: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
