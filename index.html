@@ -445,6 +445,28 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <div>
+            <p class="footer-title">Subscribe</p>
+            <div class="footer-wrap">
+              <div class="footer-field">
+                <input
+                  type="text"
+                  class="footer-input"
+                  id="footer-email"
+                  name="footer-email"
+                  placeholder="E-mail"
+                />
+              </div>
+              <button type="submit" class="primary-btn footer-btn">
+                Subscribe
+                <svg class="telegram-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-telegram"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </footer>
 
@@ -455,6 +477,86 @@
             <use href="./images/close-icon.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-lable">Enter name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder="Andrey"
+                required
+              />
+              <svg class="contact-modal-icon" width="18px" height="24px">
+                <use href="./images/icon.svg#icon-person-svg"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-tel" class="modal-lable">Enter tel</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                class="modal-input"
+                placeholder="+380 (00) 000-00-00"
+                required
+              />
+              <svg class="contact-modal-icon" width="18px" height="24px">
+                <use href="./images/icon.svg#icon-phone-svg"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-lable">Enter email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="modal-input"
+                placeholder="Enter email:"
+              />
+              <svg class="contact-modal-icon" width="18px" height="24px">
+                <use href="./images/icon.svg#icon-email-svg"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-lable">Comment</label>
+            <textarea
+              name="user-email"
+              id="user-email"
+              class="modal-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="agreement"
+              id="agreement"
+              class="input-check visually-hidden"
+              value="true"
+            />
+            <label for="agreement" class="check-text">
+              <span>
+                <svg class="check-icon" width="10px" height="8px">
+                  <use href="./images/icon.svg#icon-check"></use>
+                </svg>
+              </span>
+              <label for="privacy" class="privacy-text"
+                >I accept the terms and conditions of the
+                <a href="" class="privacy-link"> Privacy Policy</a>
+              </label>
+            </label>
+          </div>
+          <button type="submit" class="primary-btn backdrop-btn">Send</button>
+        </form>
       </div>
     </div>
 
