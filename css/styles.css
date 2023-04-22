@@ -511,11 +511,12 @@ p {
 }
 
 .footer-form {
-  display: flex;
+  /* display: flex; */
 }
 
 .footer-wrap {
   display: flex;
+  gap: 24px;
 }
 
 .footer-field {
@@ -524,7 +525,7 @@ p {
 
 .footer-input {
   padding-left: 16px;
-  margin-right: 24px;
+  gap: 24px;
   width: 264px;
   height: 45px;
 
@@ -581,9 +582,9 @@ p {
 }
 
 .modal {
-  padding: 20px;
+  padding: 72px 24px 24px;
   width: 408px;
-  min-height: 576px;
+  height: 584px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -599,10 +600,11 @@ p {
 }
 
 .close-btn {
-  margin-left: auto;
   width: 24px;
   height: 24px;
-  margin-bottom: 24px;
+  top: 24px;
+  right: 24px;
+  position: absolute;
 
   border: 1px solid #999999;
   background-color: transparent;
@@ -653,9 +655,9 @@ p {
 }
 
 .modal-input {
-  padding-left: 30px;
+  padding-left: 38px;
   width: 100%;
-  height: 45px;
+  height: 40px;
 
   font-size: 12px;
   outline: transparent;
@@ -681,7 +683,7 @@ p {
 
 .contact-modal-icon {
   position: absolute;
-  left: 5px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -689,7 +691,7 @@ p {
 .modal-textarea {
   padding: 10px;
   width: 100%;
-  height: 100px;
+  height: 120px;
 
   font-size: 12px;
   outline: transparent;
@@ -699,7 +701,15 @@ p {
 }
 
 .modal-field {
-  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.modal-field:nth-child(4) {
+  margin-bottom: 16px;
+}
+
+.modal-field:last-child {
+  margin-bottom: 24px;
 }
 
 .check-text {
@@ -747,10 +757,8 @@ p {
 }
 
 .backdrop-btn {
-  margin: auto;
+  margin: 0 auto;
   display: block;
-  margin-top: 24px;
-  margin-bottom: 24px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
