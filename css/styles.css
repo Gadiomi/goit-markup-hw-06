@@ -138,6 +138,7 @@ p {
 
 .underline {
   position: relative;
+  color: var(--main-ocean-color);
 }
 
 .underline::after {
@@ -510,10 +511,6 @@ p {
   fill: var(--main-white-color);
 }
 
-.footer-form {
-  /* display: flex; */
-}
-
 .footer-wrap {
   display: flex;
   gap: 24px;
@@ -708,7 +705,7 @@ p {
   margin-bottom: 16px;
 }
 
-.modal-field:last-child {
+.modal-field:nth-child(5) {
   margin-bottom: 24px;
 }
 
